@@ -1,0 +1,35 @@
+{
+  "timestamp": "18-Sep-2026 16:00:00",
+  "data": [
+    {
+      "symbol": "ZOMATO",
+      "series": "EQ",
+      "previousClose": 265.40,
+      "lastPrice": 291.94,
+      "pChange": 10.00,
+      "upperBand": 291.94,
+      "totalTradedVolume": 45120000,
+      "totalTradedValue": 131750.40
+    },
+    {
+      "symbol": "SUZLON",
+      "series": "EQ",
+      "previousClose": 78.50,
+      "lastPrice": 82.42,
+      "pChange": 4.99,
+      "upperBand": 82.42,
+      "totalTradedVolume": 67800000,
+      "totalTradedValue": 55880.00
+    },
+    {
+      "symbol": "TATAPOWER",
+      "series": "EQ",
+      "previousClose": 435.00,
+      "lastPrice": 456.75,
+      "pChange": 5.00,
+      "upperBand": 456.75,
+      "totalTradedVolume": 18900000,
+      "totalTradedValue": 86320.50
+    }
+  ]
+}

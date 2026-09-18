@@ -1,0 +1,38 @@
+{
+  "timestamp": "18-Sep-2026 16:00:00",
+  "data": [
+    {
+      "symbol": "BHARTIARTL",
+      "series": "EQ",
+      "lastPrice": 1685.00,
+      "pChange": 3.42,
+      "high52": 1698.80,
+      "prevHigh52": 1650.00,
+      "high52Date": "18-Sep-2026",
+      "totalTradedVolume": 6800000,
+      "totalTradedValue": 114580.00
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "series": "EQ",
+      "lastPrice": 1940.50,
+      "pChange": 2.10,
+      "high52": 1952.00,
+      "prevHigh52": 1915.00,
+      "high52Date": "18-Sep-2026",
+      "totalTradedVolume": 2400000,
+      "totalTradedValue": 46572.00
+    },
+    {
+      "symbol": "ITC",
+      "series": "EQ",
+      "lastPrice": 512.20,
+      "pChange": 1.85,
+      "high52": 515.00,
+      "prevHigh52": 510.00,
+      "high52Date": "18-Sep-2026",
+      "totalTradedVolume": 14500000,
+      "totalTradedValue": 74269.00
+    }
+  ]
+}

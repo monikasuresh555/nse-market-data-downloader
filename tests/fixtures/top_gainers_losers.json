@@ -1,0 +1,66 @@
+{
+  "timestamp": "18-Sep-2026 16:00:00",
+  "gainers": {
+    "data": [
+      {
+        "symbol": "RELIANCE",
+        "open_price": 2950.00,
+        "high_price": 3020.50,
+        "low_price": 2940.00,
+        "prev_price": 2930.00,
+        "ltp": 3010.25,
+        "perChange": 2.74,
+        "trade_quantity": 4521000,
+        "turnover_lakhs": 135400.50
+      },
+      {
+        "symbol": "TCS",
+        "open_price": 4120.00,
+        "high_price": 4210.00,
+        "low_price": 4110.00,
+        "prev_price": 4100.00,
+        "ltp": 4185.00,
+        "perChange": 2.07,
+        "trade_quantity": 1823000,
+        "turnover_lakhs": 76200.10
+      },
+      {
+        "symbol": "INFY",
+        "open_price": 1820.00,
+        "high_price": 1860.00,
+        "low_price": 1815.00,
+        "prev_price": 1810.00,
+        "ltp": 1845.50,
+        "perChange": 1.96,
+        "trade_quantity": 3105000,
+        "turnover_lakhs": 57120.00
+      }
+    ]
+  },
+  "losers": {
+    "data": [
+      {
+        "symbol": "HDFCBANK",
+        "open_price": 1650.00,
+        "high_price": 1655.00,
+        "low_price": 1610.00,
+        "prev_price": 1660.00,
+        "ltp": 1620.00,
+        "perChange": -2.41,
+        "trade_quantity": 5210000,
+        "turnover_lakhs": 84900.00
+      },
+      {
+        "symbol": "ICICIBANK",
+        "open_price": 1210.00,
+        "high_price": 1215.00,
+        "low_price": 1180.00,
+        "prev_price": 1220.00,
+        "ltp": 1195.50,
+        "perChange": -2.01,
+        "trade_quantity": 4100000,
+        "turnover_lakhs": 49100.20
+      }
+    ]
+  }
+}

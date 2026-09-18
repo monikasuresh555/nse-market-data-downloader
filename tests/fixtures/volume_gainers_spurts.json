@@ -1,0 +1,38 @@
+{
+  "timestamp": "18-Sep-2026 16:00:00",
+  "data": [
+    {
+      "symbol": "YESBANK",
+      "series": "EQ",
+      "lastPrice": 24.50,
+      "pChange": 6.52,
+      "prevWeekAvgVol": 25000000,
+      "weekAvgVol": 110000000,
+      "volumeSpurt": 340.00,
+      "totalTradedVolume": 150000000,
+      "totalTradedValue": 36750.00
+    },
+    {
+      "symbol": "IRFC",
+      "series": "EQ",
+      "lastPrice": 182.10,
+      "pChange": 4.15,
+      "prevWeekAvgVol": 12000000,
+      "weekAvgVol": 45000000,
+      "volumeSpurt": 275.00,
+      "totalTradedVolume": 52000000,
+      "totalTradedValue": 94692.00
+    },
+    {
+      "symbol": "BHEL",
+      "series": "EQ",
+      "lastPrice": 298.40,
+      "pChange": 5.20,
+      "prevWeekAvgVol": 8500000,
+      "weekAvgVol": 29000000,
+      "volumeSpurt": 241.18,
+      "totalTradedVolume": 34000000,
+      "totalTradedValue": 101456.00
+    }
+  ]
+}
