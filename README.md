@@ -19,10 +19,9 @@ Designed specifically for automated execution, cron jobs, and financial data pip
 9. [Error Handling & Retry Strategy](#error-handling--retry-strategy)
 10. [Duplicate Pruning & Idempotency](#duplicate-pruning--idempotency)
 11. [Running Tests](#running-tests)
-12. [Docker Deployment](#docker-deployment)
-13. [Automation (Linux Cron & Windows Task Scheduler)](#automation)
-14. [Extensibility: Adding New Datasets](#extensibility-adding-new-datasets)
-15. [Limitations & Assumptions](#limitations--assumptions)
+12. [Automation (Linux Cron & Windows Task Scheduler)](#automation)
+13. [Extensibility: Adding New Datasets](#extensibility-adding-new-datasets)
+14. [Limitations & Assumptions](#limitations--assumptions)
 
 ---
 
@@ -312,31 +311,6 @@ pytest -v
 - Duplicate record removal
 - Atomic file replacement & directory partitioning
 - **Failure isolation: one dataset failing while the remaining three succeed**
-
----
-
-## Docker Deployment
-
-### Build the Docker Image
-
-```bash
-docker build -t nse-downloader .
-```
-
-### Run the Container
-
-Mount a host directory to `/app/data` to persist CSV files:
-
-```bash
-# Download all datasets
-docker run --rm -v "$(pwd)/data:/app/data" nse-downloader
-
-# Download a specific dataset
-docker run --rm -v "$(pwd)/data:/app/data" nse-downloader --dataset 52-week-high
-
-# Run with custom log level
-docker run --rm -v "$(pwd)/data:/app/data" nse-downloader --log-level DEBUG
-```
 
 ---
 
